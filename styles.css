@@ -459,3 +459,107 @@ footer { display: flex; justify-content: space-between; padding: 2rem max(24px, 
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+/* 讨论版首页：像两位朋友共同维护的计划草案，而不是商业落地页。 */
+.site-header {
+  color: var(--ink);
+  background: rgba(255,255,255,.94);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 1px 0 rgba(9,47,67,.1);
+}
+.plan-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, .82fr);
+  gap: clamp(2.5rem, 7vw, 7rem);
+  align-items: center;
+  width: min(var(--max), calc(100% - 48px));
+  min-height: auto;
+  height: auto;
+  max-height: none;
+  margin: 0 auto;
+  padding: 150px 0 90px;
+  overflow: visible;
+  color: var(--ink);
+  background: white;
+}
+.plan-hero-copy h1 {
+  max-width: 760px;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(3.35rem, 7vw, 6.7rem);
+  font-weight: 900;
+  letter-spacing: -.065em;
+  line-height: 1.08;
+}
+.plan-hero-copy > p:not(.copy-feedback) {
+  max-width: 660px;
+  margin: 2rem 0 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.95;
+}
+.plan-hero .hero-actions { margin-top: 2rem; }
+.plan-hero .button { border-color: var(--ink); cursor: pointer; }
+.plan-hero .button-primary { color: white; background: var(--ink); }
+.plan-hero .button-quiet { color: var(--ink); background: white; backdrop-filter: none; }
+.plan-hero .hero-meta {
+  position: static;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 3.2rem;
+  padding: 1.5rem 0 0;
+  color: var(--ink);
+  border-top: 1px solid var(--line);
+  border-left: 0;
+}
+.plan-hero .hero-meta div { gap: .2rem; }
+.plan-hero .hero-meta strong { font-family: var(--sans); font-size: 1rem; }
+.plan-hero .hero-meta span { color: var(--muted); font-size: .75rem; }
+.plan-hero-photo { position: relative; margin: 0; }
+.plan-hero-photo::before {
+  content: "";
+  position: absolute;
+  inset: -18px 18px 18px -18px;
+  z-index: -1;
+  background: var(--sand);
+}
+.plan-hero-photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+.plan-hero-photo figcaption { margin-top: 1rem; color: var(--muted); font-size: .82rem; }
+.copy-feedback { min-height: 1.5rem; margin: .6rem 0 0; color: var(--ocean); font-size: .82rem; }
+
+.discussion-board { border-top: 1px solid var(--ink); }
+.discussion-board article {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr) auto;
+  gap: 2rem;
+  align-items: start;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.discussion-board h3 { margin: 0; font-family: var(--serif); font-size: 1.5rem; }
+.discussion-board p { max-width: 720px; margin: .5rem 0 0; color: var(--muted); }
+.discussion-board a { color: var(--ocean); font-size: .86rem; font-weight: 800; white-space: nowrap; }
+.plan-status { display: inline-flex; width: fit-content; padding: .28rem .55rem; border: 1px solid currentColor; font-size: .72rem; font-weight: 800; letter-spacing: .04em; }
+.plan-status.pending { color: #b8512b; }
+.plan-status.flexible { color: var(--ocean); }
+.plan-status.draft { color: #667448; }
+.chart-caption { margin: 1.8rem 0 0; color: var(--muted); font-size: .76rem; line-height: 1.7; }
+
+@media (max-width: 900px) {
+  .plan-hero { grid-template-columns: 1fr; width: calc(100% - 40px); padding: 118px 0 72px; }
+  .plan-hero-photo { max-width: 620px; }
+  .plan-hero-photo img { aspect-ratio: 16 / 10; }
+  .discussion-board article { grid-template-columns: 88px minmax(0, 1fr); gap: 1rem 1.5rem; }
+  .discussion-board a { grid-column: 2; }
+}
+
+@media (max-width: 620px) {
+  .plan-hero { min-height: auto; height: auto; }
+  .plan-hero-copy h1 { font-size: clamp(2.75rem, 14vw, 4.5rem); }
+  .plan-hero .hero-actions { max-width: none; }
+  .plan-hero .hero-meta { grid-template-columns: 1fr; }
+  .plan-hero-photo::before { inset: -10px 10px 10px -10px; }
+  .discussion-board article { grid-template-columns: 1fr; gap: .65rem; }
+  .discussion-board a { grid-column: 1; }
+}

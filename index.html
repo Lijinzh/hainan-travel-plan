@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="长沙出发，汽车环岛与局部摩托结合的 12 天海南深度旅行计划，包含天气、住宿、自由潜、冲浪、摄影、装备和预算。" />
+    <meta name="description" content="两位朋友从长沙出发的海南环岛讨论版计划，包含日期、天气、混合交通、住宿候选、玩水项目、摄影、装备和预算草案。" />
     <meta name="theme-color" content="#082f49" />
-    <title>去补上那片海｜海南 12 天深度旅行计划</title>
+    <title>我们的海南环岛计划｜讨论版</title>
     <link rel="icon" href="assets/site/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
@@ -16,13 +16,14 @@
     <header class="site-header" data-header>
       <a class="brand" href="#top" aria-label="返回首页">
         <span class="brand-mark" aria-hidden="true"></span>
-        <span>去补上那片海</span>
+        <span>我们的海南计划</span>
       </a>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-button>
         <span></span><span></span><span></span>
         <span class="sr-only">打开导航</span>
       </button>
       <nav id="primary-nav" class="primary-nav" aria-label="主要导航" data-nav>
+        <a href="#decision">待讨论</a>
         <a href="#route">路线</a>
         <a href="#weather">天气</a>
         <a href="#stay">住宿</a>
@@ -33,54 +34,61 @@
     </header>
 
     <main id="main">
-      <section class="hero" id="top">
-        <img class="hero-image" src="assets/images/wuzhizhou-island-cc0.jpg" alt="蜈支洲岛清澈海岸" />
-        <div class="hero-edge" aria-hidden="true"></div>
-        <div class="hero-content">
-          <h1>去补上<br />那片海</h1>
-          <p>从长沙出发，用汽车完成海南环岛，只在确认合法的沿海片区短租摩托。把蜈支洲、冲浪、摄影和曾经错过的海上体验，一次安排扎实。</p>
+      <section class="hero plan-hero" id="top">
+        <div class="plan-hero-copy">
+          <h1>我们的海南环岛计划<br />（讨论版）</h1>
+          <p>这是我们俩用来对行程的计划草案，不是旅行团介绍。先按 8 月 15—26 日排一版，路线、住宿和玩水日期都可以根据天气与彼此意见继续调整。</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#route">查看 12 天路线</a>
-            <a class="button button-quiet" href="#decision">先看核心结论</a>
+            <a class="button button-primary" href="#decision">先看待讨论事项</a>
+            <button class="button button-quiet" type="button" data-copy-discussion>复制讨论清单</button>
+          </div>
+          <p class="copy-feedback" data-copy-feedback aria-live="polite"></p>
+          <div class="hero-meta" aria-label="当前计划摘要">
+            <div><strong>8/15—26</strong><span>暂定日期</span></div>
+            <div><strong>12 天</strong><span>两人同行</span></div>
+            <div><strong>汽车＋摩托</strong><span>混合交通</span></div>
           </div>
         </div>
-        <div class="hero-meta" aria-label="行程摘要">
-          <div><strong>12</strong><span>天 11 晚</span></div>
-          <div><strong>1100+</strong><span>预计公里</span></div>
-          <div><strong>2.0–2.3 万</strong><span>两人平衡预算</span></div>
-        </div>
+        <figure class="plan-hero-photo">
+          <img src="assets/images/wuzhizhou-island-cc0.jpg" alt="蜈支洲岛清澈海岸，作为两人海南计划中的候选目的地" />
+          <figcaption>蜈支洲岛是想去的重点，但具体日期要等海况确认。</figcaption>
+        </figure>
       </section>
 
       <section class="decision section" id="decision">
         <div class="section-heading">
           <p class="section-index">01</p>
           <div>
-            <h2>先把最重要的决定做对</h2>
-            <p>这套行程围绕晴天、摄影自由度和安全边界设计，不追求每天塞满景点。</p>
+            <h2>先一起决定这 5 件事</h2>
+            <p>下面是当前还没有完全定下来的部分。看完计划后，可以优先针对这些问题提意见。</p>
           </div>
         </div>
-        <div class="decision-layout">
-          <article class="decision-lead">
-            <p class="big-statement">汽车是母车，摩托只是沿海体验。</p>
-            <p>海口、三亚市区不安排摩托；跨城全部开汽车；摩托只在万宁等出发前向交警和正规租车行复核允许通行的片区短租 1–2 天，且绝不上高速。</p>
+        <div class="discussion-board">
+          <article>
+            <span class="plan-status pending">待确认</span>
+            <div><h3>到底 8 月 14 日还是 15 日抵达？</h3><p>当前天气趋势略偏向 14 日；如果 15 日出发，就选傍晚班，只做取车入住。</p></div>
+            <a href="#weather">看天气依据</a>
           </article>
-          <div class="decision-list">
-            <article>
-              <span>时间</span>
-              <h3>2 月下旬—3 月中旬</h3>
-              <p>兼顾三亚晴天、全岛温度和较低暴晒强度。8—9 月虽便宜，但与晴天优先冲突。</p>
-            </article>
-            <article>
-              <span>自由潜</span>
-              <h3>旅行在海南，考证优先东莞</h3>
-              <p>海南适合海洋体验；东莞深池更稳定。直接报 AIDA2 没问题，但需完成完整安全与救援训练。</p>
-            </article>
-            <article>
-              <span>跟团</span>
-              <h3>不报常规一日游</h3>
-              <p>蜈支洲自行购票；冲浪和潜水只购买正规教学服务，把时间和光线掌握在自己手里。</p>
-            </article>
-          </div>
+          <article>
+            <span class="plan-status flexible">看天气</span>
+            <div><h3>顺时针还是逆时针环岛？</h3><p>暂画成海口—文昌—万宁—三亚—西线；8 月 12 日看东西岸预报后再决定。</p></div>
+            <a href="#route">看路线草案</a>
+          </article>
+          <article>
+            <span class="plan-status pending">待确认</span>
+            <div><h3>自由潜要体验，还是单独去东莞考 AIDA2？</h3><p>海南更有海洋体验，东莞深池更稳定。不要为了塞课程压缩整个环岛。</p></div>
+            <a href="#activities">看项目比较</a>
+          </article>
+          <article>
+            <span class="plan-status draft">暂定</span>
+            <div><h3>摩托只租万宁一天，够不够？</h3><p>汽车负责环岛和器材，摩托只在确认合法的沿海区域体验；海口、三亚市区不骑。</p></div>
+            <a href="#transport">看交通边界</a>
+          </article>
+          <article>
+            <span class="plan-status pending">待确认</span>
+            <div><h3>住宿更看重度假感，还是位置和停车？</h3><p>融旅权益可以用，但要先比较同房型实付价；非核心夜晚不必为了权益绕路。</p></div>
+            <a href="#stay">看住宿候选</a>
+          </article>
         </div>
       </section>
 
@@ -88,8 +96,8 @@
         <div class="section-heading light">
           <p class="section-index">02</p>
           <div>
-            <h2>12 天，沿着海岸走一圈</h2>
-            <p>海口同店取还车，顺时针走东线、南线和西线；D8 保留为海况与天气机动日。</p>
+            <h2>8 月 15 日出发，沿着海岸走 12 天</h2>
+            <p>暂按 8 月 15—26 日排期。海口同店取还车，D2 与 D8 都保留机动能力；8 月 12 日再按东西岸预报决定顺时针或逆时针。</p>
           </div>
         </div>
 
@@ -120,58 +128,58 @@
 
         <div class="days" data-days>
           <details open>
-            <summary><span>D1</span><strong>长沙 → 海口</strong><em>骑楼蓝调</em></summary>
-            <div><p>中午至下午抵达，机场取车并入住。16:30 后拍骑楼、钟楼和街头人文；市区不骑摩托。</p></div>
+            <summary><span>D1 · 8/15</span><strong>长沙 → 海口</strong><em>只做抵达</em></summary>
+            <div><p>优先下午或晚班直飞，机场取车并入住。不把蜈支洲、冲浪或长时间户外拍摄放在落地日；市区不骑摩托。</p></div>
           </details>
           <details>
-            <summary><span>D2</span><strong>海口 → 文昌沿海</strong><em>木兰湾风车</em></summary>
-            <div><p>约 90 km。上午补给转场，下午拍风车、灯塔方向和长海岸。汽车为主，摩托仅在通行范围得到确认后作为可选。</p></div>
+            <summary><span>D2 · 8/16</span><strong>海口机动 → 文昌</strong><em>看雷达再走</em></summary>
+            <div><p>天气允许再去木兰湾；若雷雨、大风或积水信号明显，就留在海口休整并改走西线。汽车为主，不安排摩托。</p></div>
           </details>
           <details>
-            <summary><span>D3</span><strong>文昌 → 博鳌 → 万宁</strong><em>神州半岛日落</em></summary>
+            <summary><span>D3 · 8/17</span><strong>文昌 → 博鳌 → 万宁</strong><em>神州半岛日落</em></summary>
             <div><p>沿东线开车，博鳌短停；15:30 后在神州半岛或石梅湾拍海边人像。万宁连住两晚。</p></div>
           </details>
           <details class="moto-day">
-            <summary><span>D4</span><strong>万宁</strong><em>冲浪＋摩托日</em></summary>
+            <summary><span>D4 · 8/18</span><strong>万宁</strong><em>冲浪＋摩托日</em></summary>
             <div><p>日月湾初学者区上 2 小时冲浪课。汽车停酒店或正规停车场，短租有牌、有证、有保险的摩托，16:30 后完成沿海骑行和机车照。</p></div>
           </details>
           <details>
-            <summary><span>D5</span><strong>万宁 → 陵水</strong><em>渔港与冷门海岸</em></summary>
+            <summary><span>D5 · 8/19</span><strong>万宁 → 陵水</strong><em>渔港与冷门海岸</em></summary>
             <div><p>下午开车去新村港、清水湾或开放岸线。没有救生员的野海岸只拍照，不游远。</p></div>
           </details>
           <details>
-            <summary><span>D6</span><strong>陵水 → 后海 / 海棠湾</strong><em>回访后海</em></summary>
+            <summary><span>D6 · 8/20</span><strong>陵水 → 后海 / 海棠湾</strong><em>回访后海</em></summary>
             <div><p>入住海棠湾 9 号等权益酒店两晚。下午回访后海、熟悉码头动线；拥挤村道不开摩托。</p></div>
           </details>
           <details class="must-day">
-            <summary><span>D7</span><strong>蜈支洲岛</strong><em>必须早起</em></summary>
+            <summary><span>D7 · 8/21</span><strong>蜈支洲岛</strong><em>暂定，可顺延</em></summary>
             <div><p>争取首批船。这一天不执行“只在下午玩”的作息：早上岛才能兼顾拍摄、项目和返程船班。</p></div>
           </details>
           <details>
-            <summary><span>D8</span><strong>三亚机动日</strong><em>天气缓冲</em></summary>
+            <summary><span>D8 · 8/22</span><strong>三亚机动日</strong><em>天气缓冲</em></summary>
             <div><p>若前一天停航则顺延蜈支洲，否则拍亚龙湾、三亚湾或酒店休整。三亚市区全程汽车、打车或步行。</p></div>
           </details>
           <details>
-            <summary><span>D9</span><strong>三亚 → 莺歌海 → 东方</strong><em>盐田与西岸落日</em></summary>
+            <summary><span>D9 · 8/23</span><strong>三亚 → 莺歌海 → 东方</strong><em>盐田与西岸落日</em></summary>
             <div><p>上午转场，下午在开放观察点拍盐田和生产人文，日落前抵达东方。提前补水和加油。</p></div>
           </details>
           <details>
-            <summary><span>D10</span><strong>东方 → 棋子湾 → 峨蔓</strong><em>火山海岸</em></summary>
+            <summary><span>D10 · 8/24</span><strong>东方 → 棋子湾 → 峨蔓</strong><em>火山海岸</em></summary>
             <div><p>拍礁石、玄武岩和粗粝西岸。仍以汽车为主；乡镇摩托仅在当地确认合法且车况可靠时短租。</p></div>
           </details>
           <details>
-            <summary><span>D11</span><strong>儋州 → 临高 → 海口</strong><em>回到起点</em></summary>
+            <summary><span>D11 · 8/25</span><strong>儋州 → 临高 → 海口</strong><em>回到起点</em></summary>
             <div><p>下午返回海口，整理车辆、备份照片并确认还车油量。保留半天处理天气或车辆机动。</p></div>
           </details>
           <details>
-            <summary><span>D12</span><strong>海口 → 长沙</strong><em>返程</em></summary>
+            <summary><span>D12 · 8/26</span><strong>海口 → 长沙</strong><em>返程</em></summary>
             <div><p>机场同店还车。相机、硬盘、充电宝与备用锂电池随身携带，不托运。</p></div>
           </details>
         </div>
 
         <div class="route-links">
-          <a href="01_路线与交通/12天环岛混合交通路线.md">阅读完整路线调研</a>
-          <a href="01_路线与交通/长沙往返机票与租车.md">查看机票与租车策略</a>
+          <a href="01_路线与交通/12天环岛混合交通路线.html">阅读完整路线调研</a>
+          <a href="01_路线与交通/长沙往返机票与租车.html">查看机票与租车策略</a>
         </div>
       </section>
 
@@ -179,57 +187,58 @@
         <div class="section-heading">
           <p class="section-index">03</p>
           <div>
-            <h2>真正适合晴天旅行的窗口</h2>
-            <p>基于 2006—2025 年历史日值：三亚冬末很干爽，但万宁东岸始终比三亚更容易阴雨。</p>
+            <h2>8 月 15 日前后的最新天气判断</h2>
+            <p>截至 8 月 2 日只能判断趋势：8 月 15—16 日阵雨、雷雨信号增强，不同模式分歧仍大，不能把它当成确定预报。</p>
           </div>
         </div>
 
         <div class="weather-layout">
           <div class="weather-story">
-            <p class="month-callout"><strong>02.25</strong><span>建议窗口开始</span></p>
+            <p class="month-callout"><strong>08.14</strong><span>当前更倾向的抵达日</span></p>
             <div class="weather-rule"></div>
-            <p class="month-callout"><strong>03.15</strong><span>建议窗口结束</span></p>
-            <p class="weather-note">如果只能在淡季出发，也不要因为酒店便宜就默认选择 8—9 月：高温、雨日和热带天气系统都可能让海上项目连续取消。</p>
+            <p class="month-callout"><strong>08.15</strong><span>按原计划选傍晚班</span></p>
+            <p class="weather-note">8 月 15 日只安排飞行、取车和入住。蜈支洲、冲浪、自由潜均放到后续机动窗口，并优先购买可因天气改期或退款的产品。</p>
           </div>
-          <div class="rain-chart" role="img" aria-label="三亚、海口、万宁部分月份历史雨日率比较">
+          <div class="rain-chart" role="img" aria-label="8月13日至16日海口、万宁、三亚综合模式降水量趋势比较">
             <div class="chart-key"><span class="sanya">三亚</span><span class="haikou">海口</span><span class="wanning">万宁</span></div>
             <div class="chart-row">
-              <b>2 月</b>
-              <div class="bars"><i class="sanya" style="--v:10.3%"></i><i class="haikou" style="--v:21.8%"></i><i class="wanning" style="--v:31.9%"></i></div>
-              <span>10 / 22 / 32%</span>
+              <b>8/13</b>
+              <div class="bars"><i class="sanya" style="--v:7.2%"></i><i class="haikou" style="--v:24%"></i><i class="wanning" style="--v:12%"></i></div>
+              <span>1.8 / 6 / 3 mm</span>
             </div>
             <div class="chart-row">
-              <b>3 月</b>
-              <div class="bars"><i class="sanya" style="--v:14.8%"></i><i class="haikou" style="--v:27.1%"></i><i class="wanning" style="--v:37.9%"></i></div>
-              <span>15 / 27 / 38%</span>
+              <b>8/14</b>
+              <div class="bars"><i class="sanya" style="--v:10.8%"></i><i class="haikou" style="--v:9.6%"></i><i class="wanning" style="--v:6%"></i></div>
+              <span>2.7 / 2.4 / 1.5 mm</span>
             </div>
             <div class="chart-row danger">
-              <b>8 月</b>
-              <div class="bars"><i class="sanya" style="--v:76.9%"></i><i class="haikou" style="--v:69.4%"></i><i class="wanning" style="--v:76%"></i></div>
-              <span>77 / 69 / 76%</span>
+              <b>8/15</b>
+              <div class="bars"><i class="sanya" style="--v:31.2%"></i><i class="haikou" style="--v:81.6%"></i><i class="wanning" style="--v:13.2%"></i></div>
+              <span>7.8 / 20.4 / 3.3 mm</span>
             </div>
             <div class="chart-row danger">
-              <b>9 月</b>
-              <div class="bars"><i class="sanya" style="--v:73.5%"></i><i class="haikou" style="--v:63.3%"></i><i class="wanning" style="--v:78.5%"></i></div>
-              <span>74 / 63 / 79%</span>
+              <b>8/16</b>
+              <div class="bars"><i class="sanya" style="--v:51.6%"></i><i class="haikou" style="--v:58.4%"></i><i class="wanning" style="--v:20%"></i></div>
+              <span>12.9 / 14.6 / 5 mm</span>
             </div>
+            <p class="chart-caption">图为 8 月 2 日 Open-Meteo best-match 单次趋势快照，数值顺序为三亚 / 海口 / 万宁；越接近出发日越可信。</p>
           </div>
         </div>
 
         <div class="forecast-steps">
-          <article><b>提前 21 天</b><p>同时观察海口、万宁、陵水、三亚和东方，不只看三亚。</p></article>
-          <article><b>提前 10 天</b><p>按东岸与西岸预报决定顺时针或逆时针，并保留可退订单。</p></article>
-          <article><b>提前 72 小时</b><p>检查海上大风、雷电、浪高、停航与活动退改，不用“晴天”代替海况。</p></article>
+          <article><b>8 月 12 日</b><p>用 72 小时预报决定顺时针或逆时针；若全岛受热带系统影响，再考虑推迟 2—4 天。</p></article>
+          <article><b>出发前 24 小时</b><p>复核海口机场、积水、雷暴大风与航班状态，不把降雨概率直接理解成全天都下雨。</p></article>
+          <article><b>每天中午</b><p>查看雷达、海上大风、浪高和景区停航公告，再确定下午的海岸、骑行和拍摄点。</p></article>
         </div>
-        <a class="text-link" href="02_天气与时间/最佳季节与晴天策略.md">查看完整气候数据与每天作息</a>
+        <a class="text-link" href="02_天气与时间/最佳季节与晴天策略.html">查看 8 月中旬完整天气判断与每天作息</a>
       </section>
 
       <section class="transport section section-sand" id="transport">
         <div class="section-heading">
           <p class="section-index">04</p>
           <div>
-            <h2>混合交通，不做摩托环岛</h2>
-            <p>汽车解决效率、行李和城市禁摩；摩托只服务于海风、机车摄影和局部通行体验。</p>
+            <h2>怎么移动：汽车为主，摩托只骑局部</h2>
+            <p>这是目前两人都比较容易执行的交通草案：汽车解决行李和跨城，摩托只留给万宁等合法沿海片区。</p>
           </div>
         </div>
         <div class="transport-flow">
@@ -261,8 +270,8 @@
         <div class="section-heading">
           <p class="section-index">05</p>
           <div>
-            <h2>把融旅权益用在最值钱的晚上</h2>
-            <p>公开页面能确认酒店归属和普通价，但实际半价取决于账号、日期、房型和库存。</p>
+            <h2>住宿候选，等我们一起筛</h2>
+            <p>这些只是按位置和融旅权益整理的候选，不是酒店推广。最终要一起比较实付价、停车、退改和当天路线。</p>
           </div>
         </div>
         <div class="hotel-rail">
@@ -271,7 +280,7 @@
             <div>
               <span>D6—D7 · 连住两晚</span>
               <h3>海棠湾 9 号度假酒店</h3>
-              <p>最值得使用权益的位置：离蜈支洲和后海近，连续住两晚可避免换酒店，D8 仍可作为停航缓冲。</p>
+              <p>当前优先候选：离蜈支洲和后海近，连续住两晚可避免换酒店，D8 还能作为停航缓冲。</p>
               <a href="https://m.haitangbayresort.cn/" target="_blank" rel="noreferrer">酒店官网</a>
             </div>
           </article>
@@ -290,26 +299,26 @@
             <li>停车、洗衣和湿装备晾晒条件</li>
           </ul>
         </div>
-        <a class="text-link" href="03_住宿/融旅酒店筛选与住宿布局.md">查看融旅酒店证据与逐晚布局</a>
+        <a class="text-link" href="03_住宿/融旅酒店筛选与住宿布局.html">查看融旅酒店证据与逐晚布局</a>
       </section>
 
       <section class="activities section section-blue" id="activities">
         <div class="section-heading light">
           <p class="section-index">06</p>
           <div>
-            <h2>把遗憾补上，但不拿安全冒险</h2>
-            <p>蜈支洲必须去；冲浪安排正规第一课；自由潜根据“旅行”还是“考证”做选择。</p>
+            <h2>想玩的项目，以及哪些要留机动</h2>
+            <p>蜈支洲是共同计划里的重点；冲浪先上一节正规课；自由潜要先决定这次以体验还是考证为主。</p>
           </div>
         </div>
 
         <article class="activity activity-island">
           <div class="activity-image"><img src="assets/images/wuzhizhou-island-cc0.jpg" alt="蜈支洲岛沙滩与碧蓝海水" loading="lazy" /></div>
           <div class="activity-copy">
-            <span>必须安排</span>
+            <span>重点候选</span>
             <h3>蜈支洲岛</h3>
             <p>工作日、首批船、官方渠道。摄影优先就买门船票加少量项目；想集中补齐海上体验，再选择写清项目次数、开放条件和退款规则的官方套票。</p>
             <ul><li>这一天必须早起</li><li>不与自由潜深度课叠加</li><li>末班船前至少 60 分钟回码头方向</li></ul>
-            <a href="04_游玩项目/蜈支洲岛与海上项目.md">查看完整玩法</a>
+            <a href="04_游玩项目/蜈支洲岛与海上项目.html">查看完整玩法</a>
           </div>
         </article>
 
@@ -333,7 +342,7 @@
           </article>
         </div>
         <p class="safety-line">绝不过度换气、绝不独自水中闭气、绝不把“会法兰佐”当成开放水域安全能力。</p>
-        <a class="text-link light-link" href="04_游玩项目/自由潜水深度调研.md">查看 AIDA2 官方要求与询价模板</a>
+        <a class="text-link light-link" href="04_游玩项目/自由潜水深度调研.html">查看 AIDA2 官方要求与询价模板</a>
 
         <article class="surf-strip">
           <div>
@@ -342,7 +351,7 @@
             <p>主课放日月湾初学者沙底区，后海用于回访或第二次轻松体验。先上至少 2 小时正规课，再由教练判断是否可以独立租板。</p>
           </div>
           <div class="surf-facts"><p><strong>¥600—1000</strong>两人课程预算</p><p><strong>1/1000s</strong>冻结冲浪动作</p><p><strong>16:00 后</strong>浪况允许时拍侧逆光</p></div>
-          <a href="04_游玩项目/冲浪调研.md">查看冲浪调研</a>
+          <a href="04_游玩项目/冲浪调研.html">查看冲浪调研</a>
         </article>
       </section>
 
@@ -350,8 +359,8 @@
         <div class="section-heading">
           <p class="section-index">07</p>
           <div>
-            <h2>四组照片，避免全程只有蓝海</h2>
-            <p>用颜色、速度和人文质感区分东线、南线、西线与海口。</p>
+            <h2>我们想拍到什么</h2>
+            <p>先列出想拍的画面，实际到现场再一起决定停留时间，不为了照片破坏安全和行程节奏。</p>
           </div>
         </div>
         <div class="photo-sequence">
@@ -364,15 +373,15 @@
           <p><strong>机车照片</strong>只在合法停车带或安全支路完成。用 70—200mm 压缩风车和椰林，不为拍摄在主路反复掉头。</p>
           <p><strong>人文照片</strong>可辨识人物先征得同意；港口、机场、航天与军事敏感设施附近不飞无人机、不拍不明设施。</p>
         </div>
-        <a class="text-link" href="05_摄影计划/风光人文与机车人像.md">查看完整镜头与造型计划</a>
+        <a class="text-link" href="05_摄影计划/风光人文与机车人像.html">查看完整镜头与造型计划</a>
       </section>
 
       <section class="packing section section-sand" id="packing">
         <div class="section-heading">
           <p class="section-index">08</p>
           <div>
-            <h2>可以直接勾选的行李清单</h2>
-            <p>勾选状态只保存在当前浏览器。两人建议各带一个 24 英寸箱，或共用一个 26/28 英寸箱并中途洗衣。</p>
+            <h2>出发前一起核对的行李</h2>
+            <p>勾选状态只保存在当前浏览器。我们可以各自对照准备，再一起确认哪些装备只带一份。</p>
           </div>
         </div>
         <div class="packing-toolbar">
@@ -413,15 +422,15 @@
             <label><input type="checkbox" />离线地图与紧急联系人</label>
           </fieldset>
         </div>
-        <a class="text-link" href="06_物资清单/12天详细物资清单.md">打开最完整的逐项清单</a>
+        <a class="text-link" href="06_物资清单/12天详细物资清单.html">打开最完整的逐项清单</a>
       </section>
 
       <section class="budget section" id="budget">
         <div class="section-heading">
           <p class="section-index">09</p>
           <div>
-            <h2>两人预算，按自己的玩法调整</h2>
-            <p>下面以平衡型 12 天行程为基础，开关会实时更新总预算。</p>
+            <h2>目前的两人预算草案</h2>
+            <p>这不是报价，只是方便我们讨论“哪些项目值得加、哪些可以省”。开关会实时更新估算。</p>
           </div>
         </div>
         <div class="budget-calculator" data-budget>
@@ -452,18 +461,18 @@
             <p><span>机票</span><b>¥2,200</b></p><p><span>汽车与油费</span><b>¥5,450</b></p><p><span>住宿</span><b>¥4,000</b></p><p><span>餐饮</span><b>¥4,200</b></p><p><span>玩水与门票</span><b>¥4,100</b></p><p><span>保险与机动</span><b>¥2,500</b></p>
           </div>
         </div>
-        <a class="text-link" href="07_预算/两人预算评估.md">查看节制型、平衡型与舒适型预算表</a>
+        <a class="text-link" href="07_预算/两人预算评估.html">查看节制型、平衡型与舒适型预算表</a>
       </section>
 
       <section class="source-note section section-deep" id="sources">
         <div>
-          <h2>动态信息，出发前必须再确认</h2>
-          <p>本网站基于截至 2026-08-02 的公开资料快照。航班、融旅特权房、海况、禁摩边界和课程价格都会变化；实际付款前按完整 Markdown 文档中的核验清单复查。</p>
+          <h2>资料来源与待复核项</h2>
+          <p>本网站基于截至 2026-08-02 的公开资料与预报快照。8 月中旬的逐日天气仍会变化；航班、融旅特权房、海况、禁摩边界和课程价格也要在付款前复查。</p>
         </div>
         <div class="source-actions">
-          <a href="08_真实评价与来源/平台实评与证据索引.md">评价与证据索引</a>
-          <a href="08_真实评价与来源/图片来源与许可.md">图片许可</a>
-          <a href="README.md">全部研究文件</a>
+          <a href="08_真实评价与来源/平台实评与证据索引.html">评价与证据索引</a>
+          <a href="08_真实评价与来源/图片来源与许可.html">图片许可</a>
+          <a href="README.html">全部研究文件</a>
         </div>
       </section>
     </main>
