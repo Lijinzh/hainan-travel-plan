@@ -31,14 +31,14 @@ function pageTemplate({ title, body, prefix }) {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#ffffff" />
-    <meta name="description" content="我们的海南环岛计划详细调研：${escapeHtml(title)}" />
-    <title>${escapeHtml(title)}｜我们的海南计划</title>
+    <meta name="description" content="去补上那片海——海南环岛计划详细调研：${escapeHtml(title)}" />
+    <title>${escapeHtml(title)}｜去补上那片海</title>
     <link rel="icon" href="${prefix}assets/site/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="${prefix}research.css" />
   </head>
   <body>
     <header class="research-header">
-      <a class="research-brand" href="${prefix}index.html">我们的海南计划</a>
+      <a class="research-brand" href="${prefix}index.html">去补上那片海</a>
       <a class="back-link" href="${prefix}index.html">← 回到计划首页</a>
     </header>
     <main class="research-shell">
@@ -50,7 +50,7 @@ function pageTemplate({ title, body, prefix }) {
         <a href="${prefix}index.html#decision">回到待讨论事项</a>
       </aside>
     </main>
-    <footer class="research-footer">我们的海南计划 · 详细资料页</footer>
+    <footer class="research-footer">去补上那片海 · 详细资料页</footer>
   </body>
 </html>`;
 }
