@@ -1,0 +1,27 @@
+# 海南计划完整资料
+
+这套方案按两人出行设计，核心不是全程骑摩托，而是：
+
+> **租汽车完成机场、城市和环岛长距离移动；只在万宁等经复核允许通行的沿海片区，短租一天正规摩托车。海口、三亚市区不骑，摩托车不上高速。**
+
+主方案为 **12 天 11 晚海南环岛**，以晴天、摄影、冷门海岸、蜈支洲岛和冲浪为重点。自由潜可以加入，但若主要目标是稳定拿下 AIDA2，更适合与海南旅行拆开，在东莞深池另报课程。
+
+## 完整调研
+
+- [执行摘要](summary.md)
+- [12 天环岛混合交通路线](../transport/itinerary-12-days.md)
+- [长沙往返机票、汽车与摩托租赁](../transport/flights-and-rentals.md)
+- [最佳季节与晴天策略](../weather/best-time-and-sunny-days.md)
+- [融旅酒店筛选与住宿布局](../stay/hotels-and-layout.md)
+- [蜈支洲岛与海上项目](../activities/wuzhizhou-and-water-sports.md)
+- [自由潜水深度调研：海南还是东莞](../activities/freediving.md)
+- [冲浪点与课程选择](../activities/surfing.md)
+- [风光、人文、海边人像和机车照片计划](../photography/photo-plan.md)
+- [12 天详细物资清单](../packing/packing-list-12-days.md)
+- [两人预算评估](../budget/budget-for-two.md)
+- [真实评价与证据索引](../sources/reviews-and-evidence.md)
+- [图片来源与许可](../sources/image-credits.md)
+
+## 使用提醒
+
+航班、酒店特权价、海况、禁摩边界和课程价格都属于动态信息。当前内容是截至 **2026-08-02** 的资料快照；实际预订前仍需按各文档中的核验清单确认。

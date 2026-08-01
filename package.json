@@ -1,0 +1,14 @@
+{
+  "name": "travel-planner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A growing collection of personal travel plans.",
+  "scripts": {
+    "build": "node tools/build-pages.cjs",
+    "check": "node tools/check-links.cjs",
+    "verify": "pnpm build && pnpm check"
+  },
+  "dependencies": {
+    "marked": "^17.0.5"
+  }
+}
