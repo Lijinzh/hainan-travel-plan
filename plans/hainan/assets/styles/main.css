@@ -374,6 +374,7 @@ button { color: inherit; }
 .switch-row input:checked + i::after { transform: translateX(22px); }
 .switch-row input:focus-visible + i { outline: 3px solid white; outline-offset: 3px; }
 .switch-row.saving input:checked + i { background: var(--orange); }
+.switch-row.budget-evidence { grid-template-columns: 1fr; cursor: default; }
 .budget-breakdown { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 2rem; }
 .budget-breakdown p { display: flex; flex-direction: column; margin: 0; padding: 1rem; border-left: 1px solid rgba(255,255,255,.18); }
 .budget-breakdown span { color: rgba(255,255,255,.55); font-size: .75rem; }
