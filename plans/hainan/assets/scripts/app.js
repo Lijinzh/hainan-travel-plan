@@ -58,7 +58,7 @@ document.querySelector('[data-reset-checks]')?.addEventListener('click', () => {
   updateChecklistCount();
 });
 
-const baseBudget = 22550;
+const baseBudget = 16400;
 const totalOutput = document.querySelector('[data-total]');
 const budgetInputs = [...document.querySelectorAll('[data-budget-item]')];
 
@@ -70,10 +70,10 @@ function updateBudget() {
 budgetInputs.forEach((input) => input.addEventListener('change', updateBudget));
 updateBudget();
 
-const discussionText = `海南环岛计划｜想一起确认的 5 件事
-1. 8 月 14 日还是 15 日抵达？如果 15 日出发，是否接受只把当天当抵达日？
-2. 8 月 12 日看天气后，顺时针走东线还是逆时针先走西线？
-3. 自由潜这次只体验，还是把 AIDA2 拆到东莞单独学习？
+const discussionText = `海南 7 天东线计划｜想一起确认的 5 件事
+1. 8 月 15 日长沙—海口、8 月 21 日三亚—长沙买哪班，含行李和退改总价多少？
+2. 海口取、三亚还的异地还车费是否能接受？
+3. 自由潜是否只保留为 D6 可选体验，AIDA2 拆到东莞单独学习？
 4. 摩托只在万宁合法路段租 1 天是否足够？
 5. 住宿更重视融旅权益和度假感，还是位置、停车与可退？
 
