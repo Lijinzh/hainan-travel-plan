@@ -4,18 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="持续更新的个人旅行计划。当前计划：两位朋友从长沙出发进行海南 7 天东线旅行。" />
-    <meta name="theme-color" content="#f5f3ee" />
+    <meta name="theme-color" content="#080a0f" />
     <title>Travel Planner｜旅行计划</title>
+    <link rel="icon" href="plans/hainan/assets/site/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="assets/styles/home.css" />
   </head>
   <body>
+    <div class="system-ticker" aria-hidden="true">
+      <span>TRAVEL QUEST LOG // PLAYER 01 + PLAYER 02 // HAINAN EAST COAST // SYSTEM READY //</span>
+    </div>
     <header class="site-header">
-      <a class="brand" href="./">Travel Planner</a>
-      <span>我们的旅行计划簿</span>
+      <a class="brand" href="./"><b>TP</b><span>Travel Planner<small>QUEST ARCHIVE / 2026</small></span></a>
+      <span class="header-status"><i></i> 我们的旅行计划簿</span>
     </header>
 
     <main>
       <section class="intro" aria-labelledby="page-title">
+        <p class="pixel-label">MISSION SELECT / 目的地选择</p>
         <h1 id="page-title">每一次出发，<br />都从这里慢慢计划。</h1>
         <p>这个项目会一直保留下去。当前只规划海南；以后确定新的目的地，再为它建立一份独立计划。</p>
       </section>
@@ -23,6 +28,7 @@
       <section class="current" aria-labelledby="current-title">
         <div class="current-photo">
           <img src="plans/hainan/assets/images/wuzhizhou-island-cc0.jpg" alt="海南蜈支洲岛清澈的海岸" />
+          <span aria-hidden="true">LIVE VIEW / WUZHIZHOU</span>
         </div>
         <div class="current-copy">
           <time datetime="2026-08">2026 年 8 月 · 当前计划</time>
@@ -41,6 +47,7 @@
       </section>
 
       <section class="future" aria-labelledby="future-title">
+        <span class="future-index" aria-hidden="true">02 / LOCKED</span>
         <h2 id="future-title">下一站，之后再决定</h2>
         <p>新的目的地不会混进海南资料里。每一趟旅行都有自己的路线、天气、住宿、预算和讨论页面。</p>
       </section>

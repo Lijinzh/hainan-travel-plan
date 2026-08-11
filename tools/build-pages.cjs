@@ -29,15 +29,16 @@ function pageTemplate({ plan, title, body, prefix }) {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="theme-color" content="#07090d" />
     <meta name="description" content="${escapeHtml(plan.description)}：${escapeHtml(title)}" />
     <title>${escapeHtml(title)}｜${escapeHtml(plan.title)}</title>
     <link rel="icon" href="${prefix}assets/site/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="${prefix}assets/styles/research.css" />
   </head>
-  <body>
+  <body class="pixel-research">
+    <div class="research-ticker" aria-hidden="true"><span>TRAVEL RESEARCH ARCHIVE // ${escapeHtml(plan.name)} // SOURCE CHECK // PLAYER NOTES //</span></div>
     <header class="research-header">
-      <a class="research-brand" href="${prefix}index.html">${escapeHtml(plan.title)}</a>
+      <a class="research-brand" href="${prefix}index.html"><b>HN</b><span>${escapeHtml(plan.title)}<small>RESEARCH FILE</small></span></a>
       <nav aria-label="页面导航">
         <a class="back-link" href="${prefix}index.html">回到海南计划</a>
         <a class="back-link" href="${prefix}../../index.html">全部旅行计划</a>

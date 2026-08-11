@@ -4,19 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="两位朋友从长沙出发的海南 7 天东线讨论版计划，包含日期、天气、混合交通、住宿候选、可选自由潜、摄影、装备和预算草案。" />
-    <meta name="theme-color" content="#082f49" />
+    <meta name="theme-color" content="#080a0f" />
     <title>去补上那片海｜海南 7 天东线计划</title>
     <link rel="icon" href="assets/site/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="assets/styles/pixel.css" />
     <script defer src="assets/scripts/app.js"></script>
   </head>
-  <body>
+  <body class="pixel-plan">
     <a class="skip-link" href="#main">跳到正文</a>
+
+    <div class="system-ticker" aria-hidden="true">
+      <span>MISSION 01 // HAINAN EAST COAST // 7 DAYS 6 NIGHTS // PLAYER 01 + PLAYER 02 // WEATHER LINK ACTIVE //</span>
+    </div>
 
     <header class="site-header" data-header>
       <a class="brand" href="#top" aria-label="返回首页">
-        <span class="brand-mark" aria-hidden="true"></span>
-        <span>去补上那片海</span>
+        <span class="brand-mark" aria-hidden="true">HN</span>
+        <span>去补上那片海<small>TRAVEL QUEST / 2026</small></span>
       </a>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-nav" data-menu-button>
         <span></span><span></span><span></span>
@@ -37,6 +42,7 @@
     <main id="main">
       <section class="hero plan-hero" id="top">
         <div class="plan-hero-copy">
+          <p class="hero-code">MISSION_01 / EAST COAST</p>
           <h1>去补上<br />那片海</h1>
           <p>这是我们俩用来对行程的计划草案，不是旅行团介绍。现在压缩为 8 月 15—21 日、7 天 6 晚，走海口进三亚出的东线精华；自由潜作为可选项。</p>
           <div class="hero-actions">
@@ -51,6 +57,7 @@
           </div>
         </div>
         <figure class="plan-hero-photo">
+          <span class="photo-window-bar" aria-hidden="true">COAST_VIEW.PNG <i></i><i></i><i></i></span>
           <img src="assets/images/wuzhizhou-island-cc0.jpg" alt="蜈支洲岛清澈海岸，作为两人海南计划中的候选目的地" />
           <figcaption>蜈支洲岛是想去的重点，但具体日期要等海况确认。</figcaption>
         </figure>
