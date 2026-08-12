@@ -27,6 +27,7 @@ img { display: block; max-width: 100%; height: auto; }
 .research-header nav { display: flex; align-items: center; gap: 18px; }
 .research-brand { display: flex; align-items: center; gap: 12px; color: var(--paper); font-weight: 950; text-decoration: none; }
 .research-brand b { display: grid; width: 42px; height: 34px; place-items: center; color: var(--night); background: var(--gold); border: 3px solid var(--paper); box-shadow: 4px 4px 0 var(--orange); font: 950 12px/1 var(--mono); }
+.research-brand b img { width: 100%; height: 100%; image-rendering: pixelated; }
 .research-brand span { display: grid; line-height: 1.05; }
 .research-brand small { margin-top: 5px; color: var(--cyan); font: 800 8px/1 var(--mono); letter-spacing: .12em; }
 .back-link { color: #b9b3c0; font: 850 11px/1 var(--sans); text-decoration: none; }

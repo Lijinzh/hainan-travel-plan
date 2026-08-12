@@ -34,6 +34,10 @@ flowchart LR
 - 取车、验车、入住海口酒店；若落地不晚，16:30 后去骑楼老街和钟楼周边。
 - 不安排水上项目或摩托。
 
+![海口骑楼老街](../../assets/images/haikou-qilou-old-street-2022.jpg)
+
+![海口世纪大桥夜景](../../assets/images/haikou-century-bridge-2023.jpg)
+
 ### D2｜8 月 16 日｜海口 → 文昌/博鳌 → 万宁，约 230—300 公里
 
 - 这是最长转场日，文昌木兰湾与博鳌只选一个，不同时打卡。
