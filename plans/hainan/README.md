@@ -8,7 +8,9 @@
 
 - `index.html`：给同行朋友浏览和讨论的海南计划首页。
 - `content/`：调研原稿，是内容的唯一来源。
+- `content-en/`：对应的英文调研原稿，与中文文件保持相同相对路径。
 - `pages/`：由构建脚本生成的详细资料网页，不直接手工修改。
+- `pages-en/`：由英文原稿生成的英文详细资料网页，不直接手工修改。
 - `assets/`：海南站使用的图片、样式、脚本与图标。
 - `plan.json`：标题、描述和内容目录配置。
 
@@ -29,3 +31,5 @@
 - [图片来源与许可](content/sources/image-credits.md)
 
 修改内容后，在仓库根目录运行 `pnpm build`，再检查 `pages/` 中对应网页。
+
+中文首页位于 `index.html`，英文首页位于 `en/index.html`。修改事实、日期、价格、路线或安全说明时，必须同步更新 `content/` 与 `content-en/`，再运行 `pnpm verify`。

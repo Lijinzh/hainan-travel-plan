@@ -10,8 +10,12 @@
 ├─ plan.json        # 标题和构建配置
 ├─ README.md        # 该计划的维护说明
 ├─ content/         # Markdown 原稿
+├─ content-en/      # 英文 Markdown 原稿，与 content/ 路径对应
 ├─ pages/           # 自动生成的 HTML
+├─ pages-en/        # 自动生成的英文 HTML
 └─ assets/          # 该目的地专属资源
 ```
 
 根目录负责汇总，目的地目录彼此独立。新增计划时，不需要修改已有海南内容，只需要新增一个同级目录，并在根目录 `index.html` 增加入口。
+
+支持英文的计划还需要在 `plan.json` 中配置 `locales.en`，并保持 `content/` 与 `content-en/` 的 Markdown 相对路径完全一致。

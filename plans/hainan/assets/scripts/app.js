@@ -64,13 +64,13 @@ const budgetInputs = [...document.querySelectorAll('[data-budget-item]')];
 
 function updateBudget() {
   const total = budgetInputs.reduce((sum, input) => sum + (input.checked ? Number(input.dataset.budgetItem) : 0), baseBudget);
-  if (totalOutput) totalOutput.textContent = total.toLocaleString('zh-CN');
+  if (totalOutput) totalOutput.textContent = total.toLocaleString(document.documentElement.lang === 'en' ? 'en-US' : 'zh-CN');
 }
 
 budgetInputs.forEach((input) => input.addEventListener('change', updateBudget));
 updateBudget();
 
-const discussionText = `海南 7 天东线计划｜想一起确认的 5 件事
+const discussionTextZh = `海南 7 天东线计划｜想一起确认的 5 件事
 1. 8 月 15 日长沙—海口、8 月 21 日三亚—长沙买哪班，含行李和退改总价多少？
 2. 海口取、三亚还的异地还车费是否能接受？
 3. 自由潜是否只保留为 D6 可选体验，AIDA2 拆到东莞单独学习？
@@ -79,12 +79,23 @@ const discussionText = `海南 7 天东线计划｜想一起确认的 5 件事
 
 计划网址：https://lijinzh.github.io/hainan-travel-plan/plans/hainan/`;
 
+const discussionTextEn = `Hainan 7-Day East Coast Plan | Five decisions
+1. Which August 15 Changsha–Haikou and August 21 Sanya–Changsha flights offer the best total including baggage and change rules?
+2. Is the Haikou pickup / Sanya return surcharge acceptable?
+3. Should freediving remain an optional D6 experience, with AIDA2 studied separately in Dongguan?
+4. Is one legal local motorcycle day around Wanning enough?
+5. Should accommodation prioritise resort atmosphere and benefits, or location, parking, and cancellation?
+
+Plan: https://lijinzh.github.io/hainan-travel-plan/plans/hainan/en/`;
+
+const isEnglish = document.documentElement.lang === 'en';
+
 document.querySelector('[data-copy-discussion]')?.addEventListener('click', async () => {
   const feedback = document.querySelector('[data-copy-feedback]');
   try {
-    await navigator.clipboard.writeText(discussionText);
-    if (feedback) feedback.textContent = '讨论清单已复制，可以直接发给同学。';
+    await navigator.clipboard.writeText(isEnglish ? discussionTextEn : discussionTextZh);
+    if (feedback) feedback.textContent = isEnglish ? 'Discussion list copied.' : '讨论清单已复制，可以直接发给同学。';
   } catch {
-    if (feedback) feedback.textContent = '浏览器没有允许自动复制，请手动复制“待讨论”部分。';
+    if (feedback) feedback.textContent = isEnglish ? 'Automatic copying is unavailable. Please copy the decisions section manually.' : '浏览器没有允许自动复制，请手动复制“待讨论”部分。';
   }
 });

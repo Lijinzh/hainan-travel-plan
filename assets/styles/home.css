@@ -125,6 +125,10 @@ footer {
   font: 800 11px/1 var(--mono);
   letter-spacing: .08em;
 }
+.header-tools { display: flex; align-items: center; gap: 18px; }
+.language-switch { display: inline-grid; min-width: 42px; height: 30px; padding: 0 9px; place-items: center; color: var(--night); background: var(--cyan); border: 2px solid var(--paper); box-shadow: 3px 3px 0 var(--orange); font: 950 10px/1 var(--mono); text-decoration: none; }
+.language-switch:hover { transform: translate(-1px,-1px); box-shadow: 4px 4px 0 var(--orange); }
+.language-switch:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
 
 .header-status i {
   display: inline-block;
@@ -365,6 +369,7 @@ footer p { margin: 0; }
   .system-ticker { height: 24px; font-size: 8px; line-height: 21px; }
   .site-header { min-height: 70px; }
   .header-status { display: none; }
+  .header-tools { gap: 0; }
   .brand b { width: 44px; height: 36px; }
   .intro { padding: 66px 0 54px; }
   .intro h1 { font-size: clamp(3rem, 15vw, 4.7rem); }

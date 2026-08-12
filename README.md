@@ -31,4 +31,13 @@ TravelPlanner/
 3. 检查 `plans/<目的地>/pages/` 中生成的网页。
 4. 提交 Markdown 原稿和生成后的 HTML。
 
+英文资料位于 `plans/<目的地>/content-en/`，通过同一构建命令生成到 `pages-en/`。中英文 Markdown 必须保持相同的相对路径，并在同一次内容更新中同步维护。
+
 网页入口只链接 `.html`，不会把访客带到裸 Markdown 页面。
+
+## 双语网页
+
+- 中文总入口：`/`
+- 英文总入口：`/en/`
+- 中文海南计划：`/plans/hainan/`
+- 英文海南计划：`/plans/hainan/en/`

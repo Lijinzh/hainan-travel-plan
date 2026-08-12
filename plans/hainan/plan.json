@@ -4,5 +4,14 @@
   "title": "去补上那片海",
   "description": "两位朋友从长沙出发的海南 7 天东线精华计划",
   "contentDirectory": "content",
-  "outputDirectory": "pages"
+  "outputDirectory": "pages",
+  "locales": {
+    "en": {
+      "name": "Hainan",
+      "title": "Back to That Sea",
+      "description": "A seven-day east-coast Hainan plan for two friends departing from Changsha",
+      "contentDirectory": "content-en",
+      "outputDirectory": "pages-en"
+    }
+  }
 }

@@ -96,6 +96,9 @@ body.pixel-plan::after {
 .pixel-plan .primary-nav a { color: #bdb7c3; font: 850 11px/1 var(--px-sans); }
 .pixel-plan .primary-nav a::after { bottom: -10px; height: 3px; background: var(--px-orange); }
 .pixel-plan .primary-nav a:hover, .pixel-plan .primary-nav a:focus-visible { color: var(--px-paper); }
+.pixel-plan .primary-nav .nav-language { min-width: 38px; padding: 9px 10px; color: var(--px-night); text-align: center; background: var(--px-cyan); border: 2px solid var(--px-paper); box-shadow: 3px 3px 0 var(--px-orange); font-family: var(--px-mono); font-weight: 950; }
+.pixel-plan .primary-nav .nav-language::after { display: none; }
+.pixel-plan .primary-nav .nav-language:hover, .pixel-plan .primary-nav .nav-language:focus-visible { color: var(--px-night); }
 .pixel-plan .skip-link { top: -100px; border-radius: 0; }
 .pixel-plan .skip-link:focus { top: 116px; color: var(--px-night); background: var(--px-cyan); }
 
