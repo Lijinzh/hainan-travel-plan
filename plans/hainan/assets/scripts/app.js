@@ -73,7 +73,7 @@ updateBudget();
 const discussionTextZh = `海南 7 天东线计划｜想一起确认的 5 件事
 1. 8 月 15 日长沙—海口、8 月 21 日三亚—长沙买哪班，含行李和退改总价多少？
 2. 海口取、三亚还的异地还车费是否能接受？
-3. 自由潜是否只保留为 D6 可选体验，AIDA2 拆到东莞单独学习？
+3. 自由潜是否只保留为 D6 海南本地正规体验？
 4. 摩托只在万宁合法路段租 1 天是否足够？
 5. 住宿更重视融旅权益和度假感，还是位置、停车与可退？
 
@@ -82,7 +82,7 @@ const discussionTextZh = `海南 7 天东线计划｜想一起确认的 5 件事
 const discussionTextEn = `Hainan 7-Day East Coast Plan | Five decisions
 1. Which August 15 Changsha–Haikou and August 21 Sanya–Changsha flights offer the best total including baggage and change rules?
 2. Is the Haikou pickup / Sanya return surcharge acceptable?
-3. Should freediving remain an optional D6 experience, with AIDA2 studied separately in Dongguan?
+3. Should freediving remain an optional supervised local Hainan experience on D6?
 4. Is one legal local motorcycle day around Wanning enough?
 5. Should accommodation prioritise resort atmosphere and benefits, or location, parking, and cancellation?
 

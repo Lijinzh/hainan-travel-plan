@@ -1,6 +1,6 @@
 # Travel Planner
 
-这是一个会持续更新的个人旅行计划仓库。当前正在规划的目的地是 **海南**；以后新增目的地时，会在 `plans/` 下建立新的独立目录，而不是把所有资料继续堆在项目根目录。
+这是一个会持续更新的个人旅行计划仓库。当前任务是 **东莞自由潜旅行**，原有 **海南 7 天东线计划**继续保留。每个目的地都在 `plans/` 下拥有独立目录。
 
 ## 项目结构
 
@@ -10,19 +10,16 @@ TravelPlanner/
 ├─ assets/                    # 总入口使用的公共样式
 ├─ plans/
 │  ├─ README.md               # 新增目的地的约定
-│  └─ hainan/                 # 当前海南计划
-│     ├─ index.html           # 海南计划展示页
-│     ├─ plan.json            # 计划元信息与构建配置
-│     ├─ content/             # 唯一需要手工维护的 Markdown 原稿
-│     ├─ pages/               # 根据 content 自动生成的网页
-│     └─ assets/              # 海南专属图片、样式和脚本
+│  ├─ dongguan/               # 当前东莞自由潜计划
+│  └─ hainan/                 # 保留的海南计划
 └─ tools/
    └─ build-pages.cjs         # 为各目的地生成详细资料网页
 ```
 
 ## 当前计划
 
-- [海南｜去补上那片海](plans/hainan/README.md)
+- [东莞｜向下潜，向外走](plans/dongguan/README.md)
+- [海南｜去补上那片海](plans/hainan/README.md)（保留）
 
 ## 更新方法
 
@@ -39,5 +36,7 @@ TravelPlanner/
 
 - 中文总入口：`/`
 - 英文总入口：`/en/`
+- 中文东莞计划：`/plans/dongguan/`
+- 英文东莞计划：`/plans/dongguan/en/`
 - 中文海南计划：`/plans/hainan/`
 - 英文海南计划：`/plans/hainan/en/`

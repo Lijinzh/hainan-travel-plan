@@ -57,7 +57,7 @@ function pageTemplate({ plan, title, body, prefix, locale, relativePage }) {
     <header class="research-header">
       <a class="research-brand" href="${planHome}"><b><img src="${prefix}assets/site/pixel-travel-icon.png" alt="" /></b><span>${escapeHtml(plan.title)}<small>RESEARCH FILE</small></span></a>
       <nav aria-label="${english ? 'Page navigation' : '页面导航'}">
-        <a class="back-link" href="${planHome}">${english ? 'Hainan plan' : '回到海南计划'}</a>
+        <a class="back-link" href="${planHome}">${english ? `${escapeHtml(plan.name)} plan` : `回到${escapeHtml(plan.name)}计划`}</a>
         <a class="back-link" href="${archiveHome}">${english ? 'All plans' : '全部旅行计划'}</a>
         <a class="research-language" href="${alternateHref}" hreflang="${english ? 'zh-CN' : 'en'}" lang="${english ? 'zh-CN' : 'en'}">${english ? '中文' : 'EN'}</a>
       </nav>

@@ -7,7 +7,7 @@
 - Car: collect at Haikou Airport and return in Sanya. Confirm the one-way return surcharge in writing.
 - Motorcycle: rent only on verified legal local roads around Wanning. Do not ride in Haikou or Sanya city and never use an expressway.
 - Priorities: Wanning surfing, selected coastal photography, Wuzhizhou Island, and recovery time.
-- Freediving: optional on D6 only when Wuzhizhou does not need to be moved. Treat a full AIDA2 course as a separate trip.
+- Freediving: optional on D6 only when Wuzhizhou does not need to be moved. Certification is outside this Hainan plan.
 
 ## Seven-day framework
 
@@ -23,7 +23,7 @@
 
 ## Freediving remains optional
 
-A full AIDA2 course usually needs pool work, open-water depth sessions, buddy safety, rescue skills, and assessment. It cannot be inserted into this seven-day route without sacrificing the main trip. A supervised pool or shallow-water experience may fit D6; certification is better planned separately in Dongguan.
+A full certification course cannot be inserted into this seven-day route without sacrificing the main trip. A supervised pool or shallow-water experience may fit D6; certification is outside this Hainan plan.
 
 ## Four non-negotiable limits
 

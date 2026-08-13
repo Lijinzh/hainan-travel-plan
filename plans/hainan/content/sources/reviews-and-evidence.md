@@ -53,10 +53,6 @@
 
 行动：查 [AIDA 教练目录](https://www.aidainternational.org/Instructors)，要求课程在付尾款前注册，拿到完整费用表和天气退改书面承诺。
 
-## 东莞深池
-
-公开报道对 DiveHub46 的一致正面信号是深度分级、水温稳定、能见度可控，适合训练和拍摄；但媒体报道不是课程质量评价，也不能替代核验某位教练。当前公开检索未得到可靠的统一 AIDA2 官方价格，应至少问三位有效教练。[南方+](https://www.nfnews.com/content/16VOl88eor.html)。
-
 ## 冲浪
 
 跨平台主题较一致：

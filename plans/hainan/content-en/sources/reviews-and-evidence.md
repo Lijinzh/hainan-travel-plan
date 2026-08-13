@@ -27,10 +27,6 @@ Repeated public themes include attractive water colour and a strong resort atmos
 
 AIDA official standards and active instructor status are hard constraints. Social posts or shop claims can suggest questions to ask, but cannot replace course structure, safety supervision, insurance, medical requirements, or certification verification.
 
-## Dongguan deep pool
-
-Deep-pool marketing demonstrates the facility's depth and controlled setting. It does not prove a particular instructor, class ratio, all-inclusive price, or certification result. Verify each course independently.
-
 ## Surfing
 
 Recent travel reports help identify crowding, photography add-ons, and teaching-quality variation at Houhai and Riyue Bay. The actual beginner window must still be chosen from the day's waves, tide, wind, and instructor assessment.

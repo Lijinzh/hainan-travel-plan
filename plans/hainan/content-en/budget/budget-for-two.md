@@ -22,14 +22,9 @@ All values are planning estimates in CNY, not quotes.
 
 The balanced planning range is about **¥16,000–18,000**. The largest uncertainty is not the length of the trip but the one-way car return charge and the exact close-in flight price.
 
-## Optional freediving increment
+## Optional Hainan freediving experience
 
-| Option | Time effect | Extra budget |
-|---|---|---:|
-| D6 supervised pool / shallow-water experience | Half a day; cancelled if Wuzhizhou moves | Decide after quotation; excluded from base |
-| AIDA2 for one | At least about three days; does not fit cleanly | ¥2,600–3,800 |
-| Extra stay, transport, and retake reserve | Separate 3–4 days in Dongguan | ¥500–1,500 |
-| Both travellers study | Nearly another full course fee | add about ¥2,600–3,800 |
+A supervised D6 pool / shallow-water experience remains outside the base budget and is cancelled if Wuzhizhou moves. This Hainan budget does not include any course, stay or transport belonging to another destination.
 
 ## Using hotel evidence in the seven-day plan
 

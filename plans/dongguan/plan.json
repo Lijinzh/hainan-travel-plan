@@ -1,0 +1,17 @@
+{
+  "slug": "dongguan",
+  "name": "东莞",
+  "title": "向下潜，向外走",
+  "description": "从长沙出发、以松山湖自由潜课程为主轴的东莞单人旅行计划",
+  "contentDirectory": "content",
+  "outputDirectory": "pages",
+  "locales": {
+    "en": {
+      "name": "Dongguan",
+      "title": "Dive Down, Ride Out",
+      "description": "A solo Dongguan trip from Changsha built around a freediving course in Songshan Lake",
+      "contentDirectory": "content-en",
+      "outputDirectory": "pages-en"
+    }
+  }
+}

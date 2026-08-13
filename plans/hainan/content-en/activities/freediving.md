@@ -1,77 +1,21 @@
-# Freediving Research: Hainan or Dongguan
+# Freediving experiences and safety in Hainan
 
-## Direct answer
+Freediving is only an **optional D6 experience** in this seven-day Hainan plan, not a certification objective. Consider a supervised pool or shallow-water session only when Wuzhizhou does not need its weather-backup day, conditions are suitable and the traveller has recovered.
 
-For this seven-day Hainan trip, keep freediving as an optional supervised experience only. Plan a full AIDA2 course separately in Dongguan if stable certification is the goal.
+Before payment, confirm instructor credentials, insurance, buddy / safety staff, exact location, depth, duration, ratio, equipment and photography charges, weather refunds and all upsells.
 
-## AIDA2 minimum framework
+## Why certification does not fit
 
-A legitimate course generally includes theory, confined-water skill, open-water depth work, buddy procedures, rescue, and assessment. Verify the current official standards, instructor status, course inclusions, medical requirements, and certification fee directly with AIDA and the instructor before enrolling.
+A complete course needs theory, confined water, depth training, buddy safety, rescue and assessment. This itinerary already includes Wanning surfing, intercity transfers and Wuzhizhou weather flexibility. Adding certification would sacrifice recovery and safety.
 
-Do not accept a product described only as “three dives” or “guaranteed certificate” without the course structure and safety requirements.
+## Safety baseline
 
-## Hainan option
+- Never breath-hold alone in water or hyperventilate;
+- Do not enter with failed equalisation, congestion, illness or serious sleep loss;
+- Do not stack surfing, demanding island activities and freediving on one day;
+- Avoid “zero-price” leads, illegal sites and unverifiable instructors;
+- Do not drink or drive fatigued afterwards.
 
-### Advantages
-
-- Real ocean conditions, scenery, and a strong holiday experience.
-- Useful for certified fun dives or supervised open-water practice.
-- Can fit a shallow or pool experience into D6 if weather is stable.
-
-### Drawbacks
-
-- Wind, waves, current, visibility, and boat access can change.
-- Wuzhizhou already needs D6 as a backup.
-- Low-price offers may omit pool work, equipment, certification, insurance, or safe depth sessions.
-- A full course would displace major parts of the seven-day route.
-
-### Best fit for this trip
-
-Book only a clearly supervised experience with transparent site, depth, equipment, insurance, and refund conditions. Cancel it automatically if Wuzhizhou moves to D6.
-
-## Dongguan option
-
-A 46-metre indoor deep pool offers controlled water, visibility, platforms, and repeatable sessions. It is better suited to a separate 3–4 day certification task.
-
-### Advantages
-
-- Stable environment and predictable scheduling.
-- Easier repetition of equalisation, technique, safety, and rescue drills.
-- Less interference from marine weather.
-
-### Still verify
-
-- Instructor's active AIDA status and ID.
-- Maximum class size and actual in-water supervision.
-- Whether equipment, pool entry, certification, insurance, photographs, and retakes are included.
-- Medical form and cancellation rules.
-
-## Price judgement
-
-Treat roughly ¥2,600–3,300 for a transparent small-group package as a target to compare, not a guaranteed market price. A higher transparent all-inclusive price can be better than a low headline followed by mandatory additions.
-
-## Inquiry template
-
-Ask for:
-
-1. Instructor name and active AIDA ID.
-2. Exact course level, days, pool/depth sessions, and maximum depth site.
-3. Student-to-instructor ratio.
-4. Included equipment, pool/boat fees, insurance, certification, photos, and retakes.
-5. Refund or reschedule policy for illness, weather, or failure to meet a requirement.
-
-## Two-week preparation
-
-- Sleep well and avoid last-minute max breath-hold attempts.
-- Practise relaxed breathing on land only; never hyperventilate.
-- Review ear and sinus health and complete any required medical declaration honestly.
-- Learn that equalisation ability is not the same as open-water safety competence.
-
-## Final recommendation
-
-| Goal | Recommendation |
-|---|---|
-| Hainan holiday, photography, and water experience first | Experience only in Hainan; take AIDA2 in Dongguan |
-| Certification must happen on this trip | Extend to roughly 14–15 days and preserve a four-day Hainan weather window |
-| Stable and cost-conscious certification | Compare transparent small-group Dongguan packages around ¥2,600–3,300 |
-| Experience open water | Complete fundamentals first, then return to Hainan for certified training |
+```text
+Hello. I am considering one supervised freediving experience on the flexible day of a seven-day Hainan trip, not a certification course. Please confirm instructor credentials, location, maximum depth, duration, class size, safety staff, insurance, equipment / photography inclusions, and rules for weather cancellation, illness and extra charges.
+```

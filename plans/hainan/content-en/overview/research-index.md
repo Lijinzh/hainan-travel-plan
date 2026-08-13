@@ -12,7 +12,7 @@ This index links the editable research behind the public plan.
 - [Weather and sunny-window strategy](../weather/best-time-and-sunny-days.md)
 - [Hotels and overnight layout](../stay/hotels-and-layout.md)
 - [Wuzhizhou and water activities](../activities/wuzhizhou-and-water-sports.md)
-- [Freediving: Hainan or Dongguan](../activities/freediving.md)
+- [Freediving experiences and safety in Hainan](../activities/freediving.md)
 - [Surfing research](../activities/surfing.md)
 - [Photography plan](../photography/photo-plan.md)
 - [Seven-day packing list](../packing/packing-list-7-days.md)

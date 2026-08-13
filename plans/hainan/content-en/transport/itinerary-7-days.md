@@ -58,7 +58,7 @@ Target the first ferry. Choose entry plus selected activities for a photography-
 
 ### D6 | August 20 | Sanya weather-flex day
 
-Move Wuzhizhou here if D5 is cancelled. Otherwise choose Yalong Bay, Sanya Bay, rest, portraits, or a supervised freediving experience. A full AIDA2 course is outside the main itinerary.
+Move Wuzhizhou here if D5 is cancelled. Otherwise choose Yalong Bay, Sanya Bay, rest, portraits, or a supervised local Hainan freediving experience. A full certification course is outside the main itinerary.
 
 ![Yalong Bay beach](../../assets/images/yalong-bay-beach-cc-by-sa.jpg)
 
