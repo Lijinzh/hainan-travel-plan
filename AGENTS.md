@@ -112,7 +112,7 @@ plans/<destination>/
 ## Git 与发布
 
 - 生产分支为 `main`，GitHub Pages 从仓库根目录发布。
-- 当前正式远端为 `origin`：`git@github.com:Lijinzh/hainan-travel-plan.git`。
+- 当前正式远端为 `origin`：`git@github.com:Lijinzh/travel-planner.git`。
 - 保留用户已有及无关改动，不使用 `git reset --hard`、强制推送或其他破坏性操作。
 - 提交前检查 `git status`、差异和未跟踪文件，只提交当前任务范围内的内容。
 - 需要“全部同步”时，先 `git fetch --prune`，只进行可安全解释的快进或普通整合，不使用 force push。

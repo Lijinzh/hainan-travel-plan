@@ -28,8 +28,8 @@ function pageTemplate({ plan, title, body, prefix, locale, relativePage }) {
   const lang = english ? 'en' : 'zh-CN';
   const currentPath = english ? `pages-en/${relativePage}` : `pages/${relativePage}`;
   const alternatePath = english ? `pages/${relativePage}` : `pages-en/${relativePage}`;
-  const canonical = `https://lijinzh.github.io/hainan-travel-plan/plans/${plan.slug}/${currentPath.replaceAll('\\', '/')}`;
-  const alternate = `https://lijinzh.github.io/hainan-travel-plan/plans/${plan.slug}/${alternatePath.replaceAll('\\', '/')}`;
+  const canonical = `https://lijinzh.github.io/travel-planner/plans/${plan.slug}/${currentPath.replaceAll('\\', '/')}`;
+  const alternate = `https://lijinzh.github.io/travel-planner/plans/${plan.slug}/${alternatePath.replaceAll('\\', '/')}`;
   const planHome = english ? `${prefix}en/index.html` : `${prefix}index.html`;
   const archiveHome = english ? `${prefix}../../en/index.html` : `${prefix}../../index.html`;
   const alternateHref = `${prefix}${alternatePath.replaceAll('\\', '/')}`;

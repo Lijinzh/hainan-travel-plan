@@ -78,7 +78,7 @@ const discussionTextZh = `海南 7 天东线计划｜想一起确认的 5 件事
 4. 摩托只在万宁合法路段租 1 天是否足够？
 5. 住宿更重视融旅权益和度假感，还是位置、停车与可退？
 
-计划网址：https://lijinzh.github.io/hainan-travel-plan/plans/hainan/`;
+计划网址：https://lijinzh.github.io/travel-planner/plans/hainan/`;
 
 const discussionTextEn = `Hainan 7-Day East Coast Plan | Five decisions
 1. Which August 15 Changsha–Haikou and August 21 Sanya–Changsha flights offer the best total including baggage and change rules?
@@ -87,7 +87,7 @@ const discussionTextEn = `Hainan 7-Day East Coast Plan | Five decisions
 4. Is one legal local motorcycle day around Wanning enough?
 5. Should accommodation prioritise resort atmosphere and benefits, or location, parking, and cancellation?
 
-Plan: https://lijinzh.github.io/hainan-travel-plan/plans/hainan/en/`;
+Plan: https://lijinzh.github.io/travel-planner/plans/hainan/en/`;
 
 const isEnglish = document.documentElement.lang === 'en';
 
@@ -98,7 +98,7 @@ const dongguanDiscussionZh = `东莞自由潜旅行｜询价与确认清单
 4. 拟骑摩托的具体道路是否得到东莞交警与租车方书面确认？
 5. 8 月 17 日西涌初学课的海况、保险与天气退改是什么？
 
-计划网址：https://lijinzh.github.io/hainan-travel-plan/plans/dongguan/`;
+计划网址：https://lijinzh.github.io/travel-planner/plans/dongguan/`;
 
 const dongguanDiscussionEn = `Dongguan Freediving Trip | Enquiry list
 1. Can the course start on 18 August, and is the ¥3,200 Douyin offer the final total?
@@ -107,7 +107,7 @@ const dongguanDiscussionEn = `Dongguan Freediving Trip | Enquiry list
 4. Has the exact motorcycle route been confirmed in writing by traffic police and the rental provider?
 5. What are the 17 August Xichong beginner conditions, insurance and weather cancellation terms?
 
-Plan: https://lijinzh.github.io/hainan-travel-plan/plans/dongguan/en/`;
+Plan: https://lijinzh.github.io/travel-planner/plans/dongguan/en/`;
 
 document.querySelector('[data-copy-discussion]')?.addEventListener('click', async () => {
   const feedback = document.querySelector('[data-copy-feedback]');

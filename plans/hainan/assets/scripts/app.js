@@ -77,7 +77,7 @@ const discussionTextZh = `海南 7 天东线计划｜想一起确认的 5 件事
 4. 摩托只在万宁合法路段租 1 天是否足够？
 5. 住宿更重视融旅权益和度假感，还是位置、停车与可退？
 
-计划网址：https://lijinzh.github.io/hainan-travel-plan/plans/hainan/`;
+计划网址：https://lijinzh.github.io/travel-planner/plans/hainan/`;
 
 const discussionTextEn = `Hainan 7-Day East Coast Plan | Five decisions
 1. Which August 15 Changsha–Haikou and August 21 Sanya–Changsha flights offer the best total including baggage and change rules?
@@ -86,7 +86,7 @@ const discussionTextEn = `Hainan 7-Day East Coast Plan | Five decisions
 4. Is one legal local motorcycle day around Wanning enough?
 5. Should accommodation prioritise resort atmosphere and benefits, or location, parking, and cancellation?
 
-Plan: https://lijinzh.github.io/hainan-travel-plan/plans/hainan/en/`;
+Plan: https://lijinzh.github.io/travel-planner/plans/hainan/en/`;
 
 const isEnglish = document.documentElement.lang === 'en';
 
