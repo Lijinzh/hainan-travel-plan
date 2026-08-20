@@ -1,6 +1,6 @@
 # Sources, dates and limitations
 
-> Core sources checked through 13 August 2026. Recheck live opening, booking, price, train, weather, wave and traffic information before departure. Social video and reviews discover candidates; they do not establish law, safety or guaranteed operation.
+> Core sources checked through **21 August 2026**. The 21 August train, course booking, local equipment inclusion and the Shaoguan / Beihai extension decision come from the user's latest itinerary update and supplied research snapshot; recheck live opening, booking, price, train, ship, weather, wave and traffic information before departure.
 
 ## Freediving
 
@@ -13,6 +13,7 @@
 - [MFA DiveHub training page](https://www.macaufreediving.org/service-page/dongguan-divehub-46m-trainig-and-fundive): third-party historical entry-price snapshot.
 - [Hong Kong Apnea DiveHub training](https://apnea.hk/divehub): advance-booking and cost-component example.
 - Public DiveHub Douyin videos: evidence of active Songshan Lake beginner content in 2026, not quality or price proof.
+- User's direct conversation with the venue: the venue said bookings can start on 22 August 2026; this is the user's date input, not a public timetable or paid booking.
 
 ## Motorcycles
 
@@ -30,6 +31,9 @@
 - [Dongguan attraction reservation channels](https://wglt.dg.gov.cn/xxzx/lyfw/content/post_3886708.html): used only for Humen venue/channel leads because the page retains old pandemic text.
 - [China Agarwood Culture Museum](https://dgepb.dg.gov.cn/ztlm/hjjyjdzt/content/post_3933060.html).
 - [Liyuzhou industrial heritage](https://dgwater.dg.gov.cn/qsdt/content/post_4472446.html).
+- [Dongguan Memory's Daxi Road opening](https://www.dg.gov.cn/dgzcjd/gkmlpt/content/4/4485/post_4485266.html): official Guancheng information dated 4 January 2026 on the second opening area and the east Shanzhou River section.
+- [Dongguan Memory opening background](https://www.dg.gov.cn/zjdz/whdz/gjww/content/post_4306516.html): government material describing the first area's Xicheng Tower Park, Shanzhou River and arcade-block scope.
+- [Songshan Lake's green-city profile](https://dgepb.dg.gov.cn/gkmlpt/content/4/4535/post_4535279.html): Dongguan ecology-bureau material dated 6 May 2026 on greenways, waterfront paths and public ecological space; not a same-day bike-stock or route-permission guarantee.
 - Trip.com, Xiaohongshu / Douyin reposts, Tripadvisor, Wikivoyage and Reddit: discovery and comparative visitor perspective only.
 
 ## Food
@@ -39,17 +43,33 @@ Dongguan government and agricultural material on Daojiao congee / dumplings and 
 ## Surf and climate
 
 - [National longboard event at Xichong](https://www.sz.gov.cn/szzt2010/szwtt/wthd/content/post_12364162.html).
+- [Official Xichong scenic-area page](https://www.dpxq.gov.cn/ztzl/pyxsj/wzdp/zjd/content/post_11584514.html): coastal-surfing, opening and transport clues.
+- [Nan'ao 2026 work plan](https://www.dpxq.gov.cn/dpnabsc/gkmlpt/content/12/12656/post_12656891.html): surf-event and surf-base context.
 - [Dapeng peak access reservation](https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12759061.html).
 - [Guangdong Marine Forecasting Station](https://g.hyyb.org/systems/HyybServices/City_guangdong/).
+- [LOOP Shuangyue Bay surf experience](https://www.klook.com/zh-CN/activity/46848-double-moon-bay-loop-surfing-lesson-hui-zhou/): commercial candidate only; price, rating and inventory are not current guarantees.
 - [Surfline Huizhou](https://www.surfline.com/travel/china/guangdong/huizhou-shi-surfing-and-beaches/1806783).
 - Dongguan flood-planning material and long-term climate sites for summer heat / rain context, not date-specific forecasts.
 
-## Weather snapshot after 16 August
+## Shaoguan and Beihai extensions
 
-- Daily forecasts checked on 13 August show hot, mostly cloudy conditions with local showers / thunderstorms on 16–17 August around Dongguan, Shenzhen, Huizhou and Shanwei, followed by stronger rain signals from the 18th and generally wetter conditions on 20–23 August.
-- The route therefore moves Xichong surfing to the morning of the 17th and uses 18–20 August for indoor freediving. This is sequencing evidence, not a guarantee of safe surf.
-- The final decision comes from the Guangdong marine forecast, current Shenzhen / Dongguan warnings, Xichong notices and the local instructor.
+- The user's latest research ranks Shaoguan Danxia Mountain + Guangdong Grand Canyon as the Guangdong default because it differs more clearly from visited Guilin / Yangshuo and keeps the return to Changsha relatively direct; rail, car transfers, opening and weather still need live confirmation.
+- The supplied Beihai research makes Weizhou return ships, no suspension notice, cancellable accommodation and a return buffer activation conditions. This page does not treat an 23–29 August ship or weather snapshot as a locked booking.
+- Use 12306, official ferry channels, scenic notices and weather warnings for live rail, ship, canyon-transfer and safety decisions.
+
+## Tennis
+
+- [Songshan Lake sports guide](https://webzdg.sun0769.com/web/news/content/772245): local list of self-service, standard and indoor tennis venues.
+- [Orange C Tennis on Amap](https://ditu.amap.com/place/B0K3L9Z3II): Songshan Lake address and phone lead; map data is not live inventory.
+- [Dongguan Tennis Center rule update](https://webzdg.sun0769.com/web/news/content/872420?share=1): reported free-session, booking-limit and low-cost rules from 1 August 2026.
+- [Dongguan Tennis Center booking reply](https://wz.sun0769.com/web/politics/index/595675): older official reply identifying the Binjiang Sports Park WeChat booking channel; current rules require a fresh check.
+
+## 21–27 August date boundary
+
+- The 21 August route basis is the user's latest itinerary update: depart at 15:00, arrive at Humen at 17:23, course on 22–24 August, default Shaoguan transfer on the 24th, Danxia Mountain on the 25th, Grand Canyon on the 26th and Changsha on the 27th; use the user's actual order for final fields.
+- Shaoguan rail, accommodation, car transfer, Beihai ships, daily training plan, tennis and return timing still need live confirmation; the old 16–22 August weather sequence and Yangshuo extension are no longer used for the current route.
+- If surfing is added, recheck Shenzhen / Huizhou marine conditions, thunder, beach opening, instructor, insurance and cancellation terms.
 
 ## Still unverified
 
-12306 fares; written confirmation that the ¥3,200 course can start around 18 August and its inclusions; restaurant operation and reservations; new museum opening; a legal motorcycle rental and route; surf-school pricing, insurance and day conditions.
+12306 fares; written confirmation that the ¥3,200 course can start around 22 August, cover 22–24 August and include the promised items; restaurant operation and reservations; Songshan Lake tennis vacancies, prices and racket rental; new museum opening; a legal motorcycle rental and route; surf-school pricing, insurance and day conditions.

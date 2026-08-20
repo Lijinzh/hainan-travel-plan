@@ -1,56 +1,51 @@
-# Freediving course and DiveHub checks
+# Freediving certification and DiveHub execution checklist
 
-## Confirmed facility and standards information
+> **Updated 21 August 2026.** The latest itinerary discussion treats the course as **booked for 22–24 August**, with freediving equipment supplied by the course provider. The certification system, instructor, meeting points and insurance still come from the booking order and instructor.
 
-- PADI lists **DiveHub International Dive Center** at Building 1, No. 14 Industrial South Road, Songshan Lake, Dongguan.
-- Several freediving associations describe DiveHub as a **46-metre indoor pool** and recommend advance booking.
-- AIDA currently lists AIDA2 prerequisites of age 18 (or 16–17 with consent) and a 200-metre continuous swim, or 300 metres with mask, fins and snorkel. Listed outcomes include two-minute static, 40-metre dynamic, 12-metre constant weight and a theory pass.
-- The facility depth is not the student's training depth. The instructor sets limits and assessment.
+## Current known status
 
-## What the written proposal must contain
+- Arrive at Humen on 21 August and move to Songshan Lake; use 22–24 August for training, assessment or make-up work;
+- The course supplies freediving equipment, so long fins, wetsuit, weights and safety line are no longer listed as required large items;
+- Bring personal swimwear, towel, non-slip sandals, dry clothes, wet bags, water and identification;
+- DiveHub's 46 metres describe facility capacity, not a beginner target;
+- The page no longer assumes AIDA2; use the certification system on the order.
 
-1. System and final certification;
-2. Instructor name, verifiable number, current status and liability insurance;
-3. Number and length of theory, confined-water and depth sessions;
-4. Class size, depth-session ratio and safety staff;
-5. Equipment, entry, certification and photography inclusions;
-6. Medical form, swim test and certification criteria;
-7. Make-up / failure / equalisation policy;
-8. Line, lanyard, weight and buddy-system procedures.
+## 22–24 August working draft
 
-## The user-seen ¥3,200 offer
+| Date | Current draft | Must be confirmed by the instructor |
+| --- | --- | --- |
+| 22 Aug | Theory + confined water, with a draft example around 10:00–18:00 | Meeting point, final hours and confined-water plan |
+| 23 Aug | Open-water / depth work, with a draft example around 10:00–13:00 | Water type, depth, line, safety staff and afternoon recovery |
+| 24 Aug | Open-water / assessment, then packing and recovery | Assessment, make-up work, certificate timing and whether to add a night |
 
-The user saw an approximately **¥3,200** freediving course on Douyin and understood it as flexibly bookable. It is the closest current purchase-channel evidence, so the working budget uses ¥3,200, but it remains a user-supplied lead rather than a confirmed order.
+These blocks help with hotel and meal planning; they are not a promise that a train can be caught. Delays, equalisation problems, make-up work, debriefing and weather may change the finish time.
 
-Before payment, obtain written confirmation of the training system, DiveHub entry, equipment, insurance, certification, make-up lessons, an 18 August start, whether one person can join / form a class, instructor identity, daily hours, ratios and all additional charges.
+## Fields to obtain from the order / instructor
 
-## Other price references
+1. Certification system and course level;
+2. Instructor name, qualification number and liability insurance;
+3. Exact meeting and release points for 22, 23 and 24 August;
+4. Full equipment list, including venue entry, photography and certification fees;
+5. Class size, depth ratio, safety staff and line configuration;
+6. Swim test, medical screening, equalisation and make-up rules;
+7. Certificate timing, photo / video delivery and rescheduling policy.
 
-Apart from the user-seen ¥3,200 lead, no formal proposal has been obtained for an 18 August start. A Macau association once listed DiveHub facility entry at ¥269 / ¥369 for three / six weekday hours and ¥399 / ¥499 on weekends and mainland holidays. This is a third-party historical snapshot, not an official current price.
+## Course-day safety line
 
-## Message template
+- Use the qualified instructor, buddy, safety staff and required line system every time;
+- Stop for failed equalisation, ear pain, dizziness, chest discomfort, congestion or unusual fatigue;
+- Do not hyperventilate or chase 46 metres or any depth the instructor has not approved;
+- No alcohol, long motorcycle ride or hard tennis after depth training;
+- If the course is not safely complete, add a night or return rather than compressing recovery for Danxia Mountain, Beihai or tennis.
 
-```text
-Hello. I am planning a solo trip from Changsha and would like to start a recognised beginner course at DiveHub around 18 August 2026. I saw an approximately ¥3,200 offer on Douyin that appeared flexibly bookable.
+## Light entry bag
 
-Could you confirm in writing:
-1. The training system and your verifiable instructor number;
-2. Total days and theory / confined-water / depth sessions;
-3. Full price including entry, equipment, certification, insurance and make-up lessons;
-4. Class size, in-water ratio and safety staff;
-5. Swim prerequisite, medical screening and certification criteria;
-6. What happens and what it costs if equalisation or one performance item needs more training;
-7. Upcoming dates and the best hotel area?
-8. Is ¥3,200 the final total, and can one traveller join or form a class starting around 18 August?
-```
+- Two swimsuits or swim trunks;
+- Quick-dry towel and non-slip sandals;
+- Dry underwear and one long-sleeve quick-dry top;
+- Two waterproof wet bags;
+- Water bottle;
+- Course order, identification, instructor contact and hotel location;
+- Personal medication or medical items required by the health form.
 
-## Safety baseline
-
-- Never hold your breath or freedive alone.
-- Do not hyperventilate; follow taught recovery breathing and surface intervals.
-- Turn up immediately if gentle equalisation fails.
-- Do not train with illness, congestion or a flagged medical condition without medical clearance.
-- Do not casually mix scuba and freediving on the same day.
-- Do not ride a motorcycle long-distance or drink after depth training.
-
-Rent low-volume mask, snorkel, suitable wetsuit, long fins, weight belt and lanyard first. Buy expensive carbon fins only after confirming fit and technique.
+Do not treat ordinary swimming earplugs as freediving equipment, and do not carry a motorcycle helmet without a confirmed legal rental.
