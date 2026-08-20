@@ -2,14 +2,14 @@
   "slug": "dongguan",
   "name": "东莞",
   "title": "向下潜，向外走",
-  "description": "从长沙出发、以松山湖自由潜课程为主轴的东莞单人旅行计划",
+  "description": "从长沙出发、以 2026 年 8 月 22—24 日松山湖自由潜考证为核心，默认延伸至韶关丹霞山与广东大峡谷，并保留北海涠洲岛条件分支的 8 月 21—27 日旅行计划",
   "contentDirectory": "content",
   "outputDirectory": "pages",
   "locales": {
     "en": {
       "name": "Dongguan",
       "title": "Dive Down, Ride Out",
-      "description": "A solo Dongguan trip from Changsha built around a freediving course in Songshan Lake",
+      "description": "A 21–27 August 2026 trip from Changsha built around a confirmed Songshan Lake freediving course, with a default Shaoguan extension and a conditional Beihai–Weizhou Island branch",
       "contentDirectory": "content-en",
       "outputDirectory": "pages-en"
     }
